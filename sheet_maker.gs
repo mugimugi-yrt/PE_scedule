@@ -48,7 +48,7 @@ function updateChecklist(data) {
 
   // 備考を記入(利用が無い団体は理由を記入)
   var note = "";
-  if      (usingRequest === "利用する") { note = note + data[8]; }
+  if      (usingRequest === "利用する") { note = note + data[9]; }
   else if (usingRequest === "利用しない") {
     note = note + data[10] + "。";
     note = note + data[11];
